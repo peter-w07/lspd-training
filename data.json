@@ -1,0 +1,2939 @@
+{
+  "meta": {
+    "title": "LSPD Academy Study Hub",
+    "subtitle": "Cadet \u00b7 Recruit \u00b7 Probationary",
+    "version": "1.2",
+    "source": "BadlandsRP LSPD Cadet Handbook, SOPs, Cadet Info, Ticketing Guide",
+    "lastUpdated": "2026-05"
+  },
+  "categories": {
+    "laws": {
+      "label": "Laws & Charges",
+      "icon": "\u2696",
+      "description": "Felony and misdemeanor charges from the criminal code.",
+      "items": [
+        {
+          "term": "Armed Robbery",
+          "def": "Theft of property or money by threatening or using force, use of any weapon in a robbery, brandishing firearm while committing robbery, regardless if firearm was discharged.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Arson",
+          "def": "Intentionally or recklessly causing damage by fire to property, whether or not the individual owns the property.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Assault with Deadly Weapon",
+          "def": "Placing an individual in fear of imminent injury, or causing injury, through the use of a weapon or vehicle.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Bank Robbery",
+          "def": "Committing a robbery at any financial institution.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Breach of Public Trust",
+          "def": "An LEO, LSFD, or DOJ employee who, in connection with duties of employment, commits fraud, breaches the trust of the public, or abuses the power afforded to them by their employment.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Breaking and Entering",
+          "def": "Unlawful entry into a residence, dwelling, or secured private structure through force without proper authorization.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Conspiracy to Manufacture Drugs",
+          "def": "Being in possession of 100+ units of any combination of anything defined in the civilian rights as drug paraphernalia.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Conspiracy to Manufacture Firearms",
+          "def": "Being in possession of five or more weapon parts, gun bodies, or other materials commonly used in the manufacture of illegal firearms.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Contempt of Court",
+          "def": "Engaging in behavior deemed disruptive or disrespectful to the court and/or proceedings. Penalty at discretion of presiding Judge.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Desecration of a Corpse",
+          "def": "Improperly or indecently interfering with a dead human body or remains. Includes grave robbing, vandalism, tampering with a corpse, or disposing of a body to conceal a crime.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Distribution of Narcotics",
+          "def": "Distribution or sale of anything defined in CR as narcotics.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Drug Manufacturing",
+          "def": "Being in possession of drug paraphernalia and controlled substances, in any quantity or combination, at the same time.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Drug Trafficking",
+          "def": "Being in possession of 100+ units of any combination of anything defined in the civilian rights as a controlled substance or narcotic.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Felony Evading",
+          "def": "Fleeing from law enforcement at high speeds or in a manner showing disregard for public safety.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Felony Speeding",
+          "def": "Driving at speeds significantly above the posted limit, classified as a felony rather than infraction.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Vehicular Manslaughter",
+          "def": "Causing the death of another person through the operation of a motor vehicle.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Hit and Run",
+          "def": "Leaving the scene of a vehicle collision without providing identification or rendering aid.",
+          "tier": "Felony"
+        },
+        {
+          "term": "DUI",
+          "def": "Operating a motor vehicle under the influence of alcohol or drugs.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Reckless Driving",
+          "def": "Operating a vehicle with willful or wanton disregard for the safety of persons or property.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Street Racing",
+          "def": "Engaging in a speed contest or exhibition of speed on a public roadway.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Poaching",
+          "def": "Hunting wildlife illegally, outside hunting grounds, or without proper license.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Hunting with an Unauthorized Weapon",
+          "def": "Using a firearm or weapon not permitted under hunting regulations to hunt wildlife.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Protected Wildlife Trafficking",
+          "def": "Capture, sale, or trade of species designated as protected under San Andreas wildlife law.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Violation of Marine Conservation",
+          "def": "Fishing or harvesting from marine areas in violation of conservation laws.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Failure to Comply with Parole",
+          "def": "Committing any felony or violent crime while on parole, resulting in extended incarceration. Penalty: original parole time (up to 150mo) + new charges, up to 210 months total.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Terrorism",
+          "def": "Crimes against the state. Among the most severe charges in the criminal code.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Gang Violence",
+          "def": "Charged when a participant in active gang-on-gang violence is detained with a positive GSR test on scene; only other charges allowed are illegal possessions and fleeing.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Murder",
+          "def": "Unlawful killing of another person with malice aforethought.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Attempted Murder",
+          "def": "Acting with intent to commit murder where the victim survives.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Kidnapping",
+          "def": "The unlawful seizure and carrying away of a person against their will.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Aggravated Kidnapping",
+          "def": "Kidnapping with aggravating factors such as use of a weapon, demand for ransom, or harm caused.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Assault on a Government Official",
+          "def": "Use of force or threat of force against an LEO, judge, ADA, DA, or other government employee.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Resisting Arrest",
+          "def": "Physically resisting, opposing, obstructing, or struggling against an officer attempting to make a lawful arrest.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Obstruction of Justice",
+          "def": "Interfering with the orderly process of law enforcement, including lying to officers, hiding evidence, or harboring a fugitive.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Tampering with Evidence",
+          "def": "Destroying, altering, concealing, or fabricating physical evidence with intent to impair its availability in an investigation.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Possession of a Class 1 Firearm",
+          "def": "Possession of any legal firearm without a valid firearms license.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Possession of a Class 2 Firearm",
+          "def": "Possession of any firearm whose caliber is .50 AE or greater, any shotgun, or any firearm with a magazine holding 15+ rounds.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Possession of a Class 3 Firearm",
+          "def": "Possession of any firearm capable of fully automatic fire using 5.56 rounds or larger; also includes muskets.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Possession of a Class 4 Firearm",
+          "def": "Possession of any firearm capable of fully automatic fire using smaller than 5.56 rounds.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Brandishing a Firearm",
+          "def": "Drawing or exhibiting a firearm in a rude, angry, or threatening manner.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Discharge of a Firearm in City Limits",
+          "def": "Firing a weapon within the boundaries of an incorporated city without lawful purpose.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Possession of an Illegal Weapon",
+          "def": "Possession of melee weapons designated as illegal: Cavalry Dagger, Broken Bottle, Switchblade, Battleaxe, or Shank.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Possession of a Destructive Device",
+          "def": "Possession of any weapon, device, or object capable of being thrown, triggered, or used to cause explosions or fire.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Possession of Illegal Equipment",
+          "def": "Possession of items including hacking phones, item disablement kits, lockpicks, lock drilling kits, weapon disablement kits, or hacking laptops.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Possession of Marijuana",
+          "def": "Possession of 21\u2013100 units of marijuana outside the home. Up to 20 units is not considered possession; up to 100 units may be kept in the home.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Possession of Narcotics",
+          "def": "Possession of cocaine, heroin, MDMA, LSD, meth, PCP, or mescaline in any amount; or ephedrine in quantities greater than 25 units.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Robbery",
+          "def": "Theft of property or money by threat or use of force without a weapon.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Petty Theft",
+          "def": "Theft of property valued under a statutory threshold, without force or threat.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Grand Theft",
+          "def": "Theft of property valued above a statutory threshold, without force or threat.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Grand Theft Auto",
+          "def": "Theft of a motor vehicle.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Carjacking",
+          "def": "Taking a motor vehicle from another person by force or threat.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Trespassing",
+          "def": "Knowingly entering or remaining on property without permission of the owner.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Vandalism",
+          "def": "Willful destruction or defacement of property belonging to another.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Disorderly Conduct",
+          "def": "Engaging in fighting, threatening behavior, or unreasonable noise that disturbs public peace.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Public Intoxication",
+          "def": "Appearing in a public place under the influence of alcohol or drugs to the degree of endangering self or others.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Failure to Identify",
+          "def": "Refusing to provide identification when lawfully detained or arrested by an officer.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Filing a False Police Report",
+          "def": "Knowingly providing false information to law enforcement during an official investigation or report.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Impersonating a Peace Officer",
+          "def": "Falsely representing oneself as a law enforcement officer.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Bribery",
+          "def": "Offering, giving, receiving, or soliciting something of value to influence the actions of a public official.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Money Laundering",
+          "def": "Concealing the origins of illegally obtained money through legitimate-appearing financial transactions.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Forgery",
+          "def": "Falsifying documents, signatures, or items with intent to defraud.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Fraud",
+          "def": "Wrongful or criminal deception intended to result in financial or personal gain.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Speeding (Infraction)",
+          "def": "Operating a motor vehicle in excess of the posted speed limit by a non-felony margin.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Driving Without a License",
+          "def": "Operating a motor vehicle without a valid driver's license.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Driving on a Suspended License",
+          "def": "Operating a motor vehicle while one's license is suspended or revoked.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Failure to Yield",
+          "def": "Failing to give right of way when required by traffic law.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Running a Red Light",
+          "def": "Failing to stop at a red traffic signal.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Illegal U-Turn",
+          "def": "Performing a U-turn where prohibited by signage or traffic law.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Driving Without Insurance",
+          "def": "Operating a motor vehicle without proof of valid insurance.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Driving Without Registration",
+          "def": "Operating a motor vehicle without valid registration.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "License Plate Misuse",
+          "def": "Affixing a license plate to a vehicle to which it does not belong.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Operating a Vehicle Without a Seatbelt",
+          "def": "Operating or riding in a motor vehicle without wearing a properly fastened seatbelt.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Jaywalking",
+          "def": "Crossing a street unlawfully or without regard for traffic regulations.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Loitering",
+          "def": "Remaining in a public place without apparent purpose, particularly with intent to commit a crime.",
+          "tier": "Infraction"
+        },
+        {
+          "term": "Disturbing the Peace",
+          "def": "Conducting oneself in a manner that disturbs the public order.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Indecent Exposure",
+          "def": "Exposing one's private parts in a public place.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Stalking",
+          "def": "Repeatedly following or harassing another person, causing reasonable fear for safety.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Domestic Violence",
+          "def": "Use of physical force against a household or family member.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Aggravated Assault",
+          "def": "Assault committed with a weapon or with intent to commit a more serious crime.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Battery",
+          "def": "Unlawful physical contact with another person without consent.",
+          "tier": "Misdemeanor"
+        },
+        {
+          "term": "Possession of Stolen Property",
+          "def": "Knowingly possessing property that has been stolen from another.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Receiving Stolen Property",
+          "def": "Buying, receiving, or concealing stolen property knowing it was obtained illegally.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Burglary",
+          "def": "Unlawful entry into a building with intent to commit a crime, typically theft.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Conspiracy",
+          "def": "Agreement between two or more persons to commit an unlawful act.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Accessory After the Fact",
+          "def": "Knowingly assisting a felon to avoid arrest, prosecution, or punishment after the felony is committed.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Perjury",
+          "def": "Knowingly making a false statement under oath in a judicial proceeding.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Witness Intimidation",
+          "def": "Threatening, harassing, or attempting to influence a witness in a criminal investigation.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Aggravated Vehicular Manslaughter",
+          "def": "Causing the death of another through the operation of a motor vehicle while DUI or driving recklessly.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Negligent Homicide",
+          "def": "Causing death through criminally negligent conduct.",
+          "tier": "Felony"
+        },
+        {
+          "term": "Manslaughter",
+          "def": "Unlawful killing of another person without malice aforethought.",
+          "tier": "Felony"
+        }
+      ]
+    },
+    "drugs": {
+      "label": "Drugs & Illegal Items",
+      "icon": "\u26a0",
+      "description": "Classifications for firearms, controlled substances, paraphernalia, and prohibited equipment.",
+      "items": [
+        {
+          "term": "Class 4 Firearm",
+          "def": "Any firearm capable of fully automatic fire using smaller than 5.56 rounds.",
+          "tier": "Guns"
+        },
+        {
+          "term": "Class 3 Firearm",
+          "def": "Any firearm capable of fully automatic fire using 5.56 rounds or larger. Also includes muskets.",
+          "tier": "Guns"
+        },
+        {
+          "term": "Class 2 Firearm",
+          "def": "Any firearm whose caliber is equal to or greater than .50 AE, any shotgun, or any firearm whose magazine holds 15+ rounds.",
+          "tier": "Guns"
+        },
+        {
+          "term": "Class 1 Firearm",
+          "def": "Any legal firearm becomes an illegal Class 1 firearm if the person in possession does not have a firearms license.",
+          "tier": "Guns"
+        },
+        {
+          "term": "Destructive Devices",
+          "def": "Any weapon, device, or object capable of being thrown, triggered, or used to cause explosions or fire.",
+          "tier": "Devices"
+        },
+        {
+          "term": "Cavalry Dagger",
+          "def": "Illegal melee weapon.",
+          "tier": "Melee"
+        },
+        {
+          "term": "Broken Bottle",
+          "def": "Illegal melee weapon.",
+          "tier": "Melee"
+        },
+        {
+          "term": "Switchblade",
+          "def": "Illegal melee weapon.",
+          "tier": "Melee"
+        },
+        {
+          "term": "Battleaxe",
+          "def": "Illegal melee weapon.",
+          "tier": "Melee"
+        },
+        {
+          "term": "Shank",
+          "def": "Illegal melee weapon.",
+          "tier": "Melee"
+        },
+        {
+          "term": "Hacking Phone",
+          "def": "Illegal equipment.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Item Disablement Kit",
+          "def": "Illegal equipment.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Lockpicks",
+          "def": "Illegal equipment.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Lock Drilling Kit",
+          "def": "Illegal equipment.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Weapon Disablement Kit",
+          "def": "Illegal equipment.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Hacking Laptop",
+          "def": "Illegal equipment.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Cocaine",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "Coca Paste",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "Ephedrine (>25 units)",
+          "def": "Becomes an illegal controlled substance in quantities greater than 25 units.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "Heroin",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "MDMA",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "LSD",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "Meth",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "PCP",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "Mescaline",
+          "def": "Controlled substance. Illegal to possess in any quantity.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "Weed/Marijuana",
+          "def": "Up to 20 units = not in possession; 21\u2013100 units = misdemeanor possession; 100+ units = trafficking. Up to 100 units may be kept in the home. Manufacturing/sales illegal unless at a licensed dispensary.",
+          "tier": "Drugs"
+        },
+        {
+          "term": "Cannabis Seeds (large amount)",
+          "def": "Drug paraphernalia in large quantities.",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Coca Leaves",
+          "def": "Drug paraphernalia.",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Mobile Meth Lab Kit",
+          "def": "Drug paraphernalia.",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Opium",
+          "def": "Drug paraphernalia.",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Acetic Anhydride",
+          "def": "Drug paraphernalia (precursor chemical).",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Ergot",
+          "def": "Drug paraphernalia.",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Lysergic Acid",
+          "def": "Drug paraphernalia (LSD precursor).",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Formaldehyde",
+          "def": "Drug paraphernalia.",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Ether",
+          "def": "Drug paraphernalia.",
+          "tier": "Paraphernalia"
+        },
+        {
+          "term": "Hydrochloride",
+          "def": "Drug paraphernalia.",
+          "tier": "Paraphernalia"
+        }
+      ]
+    },
+    "sops": {
+      "label": "SOPs",
+      "icon": "\ud83d\udccb",
+      "description": "Standard Operating Procedures across all sections of LSPD policy.",
+      "items": [
+        {
+          "term": "Discord Name Format",
+          "def": "Your Discord name shall match your in-game identity in one of the following: Callsign F. Last, Callsign Last, or Callsign First Last.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Civilian Ride-Along Approval",
+          "def": "Requires approval from a Sergeant or above and lasts for a maximum of 60 minutes. Sergeants cannot approve their own ride-alongs; will require Lieutenant or higher approval.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Ride-Along Civilian Requirements",
+          "def": "Clean record (no felonies/violent misdemeanors; felony speeding excepted), dressed neatly, no weapons, must remain in vehicle unless instructed, and must sign a waiver.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Hostage/Bribery Policy",
+          "def": "It is the official stance of the LSPD that we do not pay money for hostages nor pay money to individuals to deter crime.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Officer-Officer Romantic Relationships",
+          "def": "Strictly prohibited unless: notification to LT+/Captain/Asst Chief/Chief AND both parties sign a consensual relationship waiver. Failure to disclose may result in termination.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Officer Down \u2014 Response Criteria",
+          "def": "Officers shall not respond unless one of: officer down was the only unit on scene, units on scene request additional units via radio, or there is no update/response from on-scene officers within 1 minute.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Off-Duty Misconduct",
+          "def": "Officers found Guilty of Misdemeanor and/or Felony crimes while off-duty will be subject to discipline. Discipline can include written warning, 3/7/14-day suspension without pay, demotion to lower rank, or removal from the LSPD.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Probationary Weapon Loadout",
+          "def": "Probationary Officer/Cadet may carry: SMG, Carbine Rifle, Combat Pistol, Service Pistol, Taser, Baton, Flashlight, & Knife.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Officer Weapon Tier",
+          "def": "Officer rank adds Heavy Pistol and Shotgun to standard loadout.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Senior Officer Weapon Tier",
+          "def": "Senior Officer rank adds everything below it (full Officer + probationary loadout).",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Corporal Weapon Tier",
+          "def": "Corporal adds M16 and above to permitted loadout.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Sergeant Weapon Tier",
+          "def": "Sergeant rank adds everything below it (Pump Shotgun, M16, all subordinate weapons).",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Unmarked Vehicle Restriction",
+          "def": "Unmarked cars are restricted to SGT+ and Certifications. Sergeants may only use unmarked fleet vehicles and the Ellie.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Unmarked Vehicle Approved Colors",
+          "def": "Black, Carbon Black, Graphite, Ice White, Frost White, Dark Blue, Rolled Steel, Silver.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Cosmetic Customization Rule",
+          "def": "Cosmetic customization of vehicles is prohibited unless SGT+ or Certifications state otherwise. Spoilers, body skirt, hood etc. cannot be changed; spotlights, cameras, prison cage, radars and other extras can be added.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Ellie Mustang Use",
+          "def": "Only permitted to be used by the Training Officer of the Month or Sgt+. Vehicle may be distributed as a reward by Lt+, however at least 3 patrol vehicles must be available with adequate transport space.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Schlagen GT Use",
+          "def": "Only permitted to be used by LT+. Only 1 LSPD Schlagen GT can be out at a time. At least 3 patrol vehicles must be available. Top light bar must not be removed. Interceptor drivers take priority.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Patrol Officer Per-Vehicle Limit",
+          "def": "During routine patrol, max of 2 officers per vehicle (unless otherwise approved) to ensure transport space for apprehended criminals.",
+          "tier": "Patrol"
+        },
+        {
+          "term": "Motorcycle/Bike/Snowmobile Use",
+          "def": "May only be used if there are 3 transport units available OR it has been requested by a Cpl+.",
+          "tier": "Patrol"
+        },
+        {
+          "term": "Code 1",
+          "def": "No Lights / No Sirens \u2014 non-urgent situation, drive safely.",
+          "tier": "Patrol"
+        },
+        {
+          "term": "Code 2",
+          "def": "Lights / No Sirens \u2014 speed needed or urgent but low profile recommended. Officers may proceed through traffic lights and overtake when responding Code 2; pause at intersections and visually verify it's safe to proceed.",
+          "tier": "Patrol"
+        },
+        {
+          "term": "Code 3",
+          "def": "Lights & Sirens \u2014 emergency or pursuits. Drive as safely and carefully as possible.",
+          "tier": "Patrol"
+        },
+        {
+          "term": "Break Length",
+          "def": "Breaks should last no more than 15 minutes \u2014 anything more than this you should clock off duty.",
+          "tier": "Patrol"
+        },
+        {
+          "term": "Avoid Illegal Activity Areas",
+          "def": "Officers should avoid staying in an area of known illegal activity for an extended period of time.",
+          "tier": "Patrol"
+        },
+        {
+          "term": "PIT Maneuver \u2014 Authorization",
+          "def": "Officers must seek and receive authorization from a Sgt+. If no Sgt+ on duty, the highest ranked officer on duty assumes responsibility to authorize the maneuver.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "PIT Maneuver \u2014 Conditions",
+          "def": "Traffic, pedestrian, and weather conditions must be such that a PIT in those conditions would not cause undue risk to the public.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "PIT Maneuver \u2014 Speed Limit",
+          "def": "PITs may not be made at speeds exceeding 100 MPH or in high traffic areas.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "PIT Maneuver \u2014 Bicycle Criteria",
+          "def": "Bicycle/rider involved in extended/multiple chases; pursuit speed at or below 20 mph; extreme caution and control exercised.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Maverick Helicopter Use",
+          "def": "May be used by those who hold the aviation certification for vehicle pursuits, isolated medical calls, or transportation from station to station.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Predator Boat Use",
+          "def": "May be used for water pursuits, medical calls, or transportation.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Spike Strips Use",
+          "def": "May be used during any vehicle pursuit. Officer using spike strips must have their vehicle parked near the spike strips with emergency lights flashing. May also be used to disable tires of a stationary getaway vehicle in an active crime.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Off-Road Dirt Bike (BF400)",
+          "def": "Cpl+ may use only in situations where an offender's vehicle is an off-road type or approved by Sgt+.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "LEO Self-Identification",
+          "def": "Officers shall announce themselves as a member of the LSPD and provide a clear and reasonable demand.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Nightstick/Taser Use",
+          "def": "Appropriate when an unarmed suspect is refusing a lawful order, threatening the safety of a person in the immediate area, or fleeing and eluding a police officer.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Lethal Force \u2014 Authorization",
+          "def": "A suspect with a weapon poses a direct and immediate threat to LEO or civilian safety, OR an individual is known to be armed and has recently caused grievous bodily harm and probable cause exists they still pose significant threat.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Firing from a Moving Vehicle",
+          "def": "Officers are not permitted to fire from within a moving vehicle to disable a fleeing vehicle unless directed by on-duty Lieutenant+ or attempting to disable larger vehicles that cannot be stopped using conventional pursuit tactics.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Firing Upon a Vehicle \u2014 Criteria",
+          "def": "Officer in marked PD vehicle with lights and sirens on, AND firing in self-defense (being rammed/shot at) OR has received authorization from on-duty Lt+ to shoot tires after prolonged pursuit. If Lt+ unavailable, a Sergeant may approve.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Tasers from Inside a Vehicle",
+          "def": "Use of tasers from inside a vehicle is prohibited.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Knife \u2014 Water Defense",
+          "def": "If an officer is being attacked in the water then they may use a knife to defend themselves. The knife should NOT be used to subdue a fleeing suspect.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Less-Than-Lethal Priority",
+          "def": "When possible, efforts should be made to use less than lethal weapons first; however officers are expected to defend themselves and any civilians in the area.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Heavy Weapons When Outnumbered",
+          "def": "Permitted when LEOs are far outnumbered at a ratio of at least 3 suspects to 1 LEO for the entire scene \u2014 not just temporarily.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Direct Witness \u2014 Definition",
+          "def": "An on-duty LEO, Judge, or properly uniformed LSFD Security Personnel who personally witnesses a crime, generating probable cause to detain and search.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Eye Witness \u2014 Limit",
+          "def": "A civilian or EMS who gives their account of an incident may be used during an investigation but does NOT generate probable cause to search.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Reasonable Suspicion \u2014 Definition",
+          "def": "Any reasonable person would suspect a crime was in the process of being committed, had been committed, or was going to be committed very soon. May be used to build a case and submit warrants.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Self-Incrimination",
+          "def": "Includes an officer witnessing an individual ingesting/smoking what appears to be a controlled substance \u2014 generates PC.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Hostage Used in Hostile Scenario",
+          "def": "A civilian who has been used as a hostage in a hostile or negotiation scenario gives PC to detain and search.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Mask in Public/Government Space",
+          "def": "An individual observed wearing a mask or face covering in a public or government space generates probable cause.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "K9 Indication",
+          "def": "A police canine unit indicating on a vehicle or person for the presence of drugs, explosives, weapons, or anything it is qualified to indicate for generates PC.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Brandishing in Hand",
+          "def": "A civilian who is brandishing a firearm in hand may be stopped and identified to determine if they possess a Firearm License.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "GSR + Gunshot/Violent Crime Area",
+          "def": "A civilian tests positive for GSR and is in the area of a 911 call reporting gun shots or in the area of a violent crime in which a firearm was used.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Speed Bomb Activation",
+          "def": "A civilian attaching a speed bomb to a vehicle (officer must hear the bomb being activated) generates PC.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Open Hunting Rifle Outside Grounds",
+          "def": "A civilian observed openly carrying a hunting rifle within the hunting grounds generates PC.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Hand-to-Hand at Suspicious Activity Call",
+          "def": "A civilian observed engaging in hand to hand transactions in the area of a suspicious activity call generates PC.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Drug Manufacturing Location",
+          "def": "A civilian observed inside a location or area known for the manufacturing of controlled substances or marijuana generates PC.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Plane from Foreign Country",
+          "def": "An individual is observed exiting a plane whose flight originated in a foreign country, for purposes of border security.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Maximum Penalties \u2014 LEO",
+          "def": "Up to 60 months prison sentence by a single LEO without supervisor approval.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Sentence Extension \u2014 LT+",
+          "def": "Lieutenant+ may approve sentences up to 120 months max.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Sentence Extension \u2014 ADA/DA",
+          "def": "ADA or DA may approve up to 10 months max additional time.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Sentence Extension \u2014 Judge",
+          "def": "At the discretion of a judge, sentences may be extended.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Sentence Extension \u2014 Parole Breach",
+          "def": "Up to 210 months when in breach of parole.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Repeat Offense Doubling",
+          "def": "If an individual is being charged with the same crime within 2 hours, the officer may double the ticket price/restitution/prison sentence. If charged again within another 2 hours, the officer may send to jail without offering a ticket.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Parole Definition",
+          "def": "An additional penalty associated with all felonies which is served upon release from prison. Parole is non-negotiable and the imposed parole time cannot be altered by any parties.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Breach of Parole \u2014 How",
+          "def": "Constituted by committing any felony or any violent non-felony.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Multiple Counts Rule",
+          "def": "Individuals may only be charged with multiple counts of a single offense when that individual committed the offenses in separate incidents.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Read Out Charges Before Ticket",
+          "def": "Officers shall read out all crimes a suspect is being charged with prior to issuing a ticket. Once issued, no further charges may be added.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Refusing a Ticket",
+          "def": "A suspect shall always have the chance to pay a ticket unless the price is marked 'N/A'. If a Civilian refuses the ticket then they shall be processed for the corresponding jail time.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Jail vs Prison Threshold",
+          "def": "If the Jail Sentence is 5 Months or longer, the Officer shall send the suspect to Prison. Any sentencing less than 5 Months can be served in a holding cell under police supervision.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Mandatory Processing",
+          "def": "Suspects charged with any felony and/or violent misdemeanor require mandatory processing at a police station.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Lawyer Request \u2014 Felony",
+          "def": "A civilian has the right to request a lawyer when charged with at least one felony. Officers must contact the court system / DA only if the suspect requests legal representation.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Lawyer Request \u2014 Server Cutoff",
+          "def": "Requests for a lawyer less than 15 minutes before server restarts will not be honored.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Lawyer Wait Time",
+          "def": "Once jailed and a lawyer is requested, officers are expected to wait no more than 10 minutes for arrival of the lawyer.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Lawyer Identification Required",
+          "def": "The lawyer must provide identification and proof of DOJ Employment, and consent to be searched prior to seeing their client.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Time Served During Lawyer Wait",
+          "def": "Time served in police custody does not apply when a civilian requests a lawyer to represent them.",
+          "tier": "Processing"
+        },
+        {
+          "term": "24-Hour Hold",
+          "def": "A suspect may be placed on a 24-hour hold for further investigation with approval of a Lieutenant+ of LSPD/BCSO, or an ADA, DA, or Judge.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Lockdown Property",
+          "def": "LEOs may lock down a property for which they are obtaining or have obtained a search warrant for up to 9 days after issuance, or while the warrant is imminently being issued.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Supervisor Request",
+          "def": "A civilian may request to speak with a supervisor \u2014 the next available Sr. ranking officer. Supervisor requests are at the on-scene Officer's discretion. If denied, must be included in the arrest report.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Breath Sample Demand",
+          "def": "An LEO may require a breath sample if reasonable grounds exist that the individual is operating under the influence of alcohol, or if the LEO has established a DUI checkpoint.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Breath Sample Refusal",
+          "def": "An individual who refuses to provide a breath sample to an LEO with basis for demand will be considered to be DUI and subject to a DUI charge and all associated penalties.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Sentence Reduction Cap (LEO)",
+          "def": "LEOs may not deduct more than 25% off prison sentence time without LEO Command Member (Lt+), Lawyer, DA, ADA, or Judge approval.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Restitution/Fine Reduction Cap (LEO)",
+          "def": "LEOs may not deduct more than 50% of restitution or fines off without Command Member, Lawyer, DA, ADA, or Judge approval.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Fingerprint Scan Restriction",
+          "def": "Officers are only permitted to scan an individual's fingerprints if the individual's identity is unknown and the individual will be charged with a crime.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Confiscation on Imprisonment",
+          "def": "Upon serving a prison term, the following will be confiscated: All weapons (legal or illegal), all illegal items, any item used in or gained from the commission of a crime.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Allowed Items in Prison",
+          "def": "Life sustaining items (food, medical supplies) and non-offensive items (key chains, printed papers).",
+          "tier": "Processing"
+        },
+        {
+          "term": "Improper Prison Items",
+          "def": "Metal objects, tools, alcohol, cell phones \u2014 placed in police locker, available for pickup at front desk of Bolingbroke after sentence completion.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Pre-Cell Search Rule",
+          "def": "Suspects being transported to holding cells are not to be uncuffed without first being searched, weapons and inappropriate items removed, and a final pat down prior to uncuffing. Must be completed by the officer removing the cuffs.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Driver's License Seizure Offenses",
+          "def": "Felony Evading, Hit and Run, Vehicular Manslaughter, DUI, Any violent felony against an LEO or Government Official.",
+          "tier": "Licenses"
+        },
+        {
+          "term": "Firearm License Auto-Seizure",
+          "def": "Automatically seized after an individual is charged with more than five non-speeding felonies.",
+          "tier": "Licenses"
+        },
+        {
+          "term": "Hunting License Seizure",
+          "def": "Seized for: Poaching, Hunting with an Unauthorized Weapon, Protected Wildlife Trafficking.",
+          "tier": "Licenses"
+        },
+        {
+          "term": "Fishing License Seizure",
+          "def": "Seized for: Poaching, Violation of Marine Conservation, Protected Wildlife Trafficking.",
+          "tier": "Licenses"
+        },
+        {
+          "term": "CDL Seizure Offenses",
+          "def": "Felony Evading, Hit and Run, Vehicular Manslaughter, DUI, Reckless Driving, Felony Speeding \u2014 all while using a commercial vehicle.",
+          "tier": "Licenses"
+        },
+        {
+          "term": "Revoking Keys",
+          "def": "Vehicle keys may be revoked if the vehicle was used for any illegal activity, or if keys were forcibly obtained from the owner of the vehicle.",
+          "tier": "Licenses"
+        },
+        {
+          "term": "Standard (Temporary) Impound",
+          "def": "Vehicle is found abandoned, driver unable to continue operating (no license/DUI), driver convicted of Felony Speeding and officer chooses to impound.",
+          "tier": "Impound"
+        },
+        {
+          "term": "3-Hour Impound",
+          "def": "Vehicle used by individual committing a non-vehicle crime (e.g., staged for fleeing scene of a robbery), or driver convicted of Felony Speeding with officer impound choice.",
+          "tier": "Impound"
+        },
+        {
+          "term": "1-Day Impound",
+          "def": "Driver convicted of Felony Evasion; Vehicular Manslaughter/ADW/Attempted Murder/Murder where vehicle was used in commission; Street Racing conviction; license plate misuse.",
+          "tier": "Impound"
+        },
+        {
+          "term": "3-Day Impound",
+          "def": "Felony Evasion AND prior 1-day impound within last 72 hours; violent felony against LEO/Government Official with vehicle used in commission; vehicle abandoned mid-pursuit when occupants flee into another vehicle.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Vehicle Seizure \u2014 Authorization",
+          "def": "All vehicle seizures must be approved by a Sgt+ of LSPD/BCSO or an ADA/DA/Judge. Require detailed report and a seizure notice presented to registered owner in person or via mail.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Vehicle Seizure \u2014 Same Vehicle Rule",
+          "def": "May seize if individual uses the same vehicle in 3 separate incidents in the commission of a crime and is arrested and charged with a felony within a 72-hour period.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Vehicle Seizure \u2014 Trafficking",
+          "def": "May seize if the individual is being charged with drug trafficking or weapons trafficking.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Vehicle Seizure \u2014 Reckless Escape",
+          "def": "May seize if the individual crashes their vehicle into a body of water intentionally while attempting an escape, or takes extremely reckless life-threatening jumps from high buildings or freeways (use 4 stories as a guideline).",
+          "tier": "Impound"
+        },
+        {
+          "term": "Vehicle Seizure \u2014 Super Car Distribution",
+          "def": "May seize if the individual uses a high end super car to distribute drugs of any kind and felony evade from officers.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Vehicle Seizure \u2014 Conspiracy",
+          "def": "May seize if the vehicle is used for Conspiracy to manufacture Drugs.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Vehicle Seizure \u2014 Contest Period",
+          "def": "Once seized, a vehicle seizure may be contested for up to 2 months. After 2 months, the DOJ will automatically take possession of that vehicle and its registration.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Tow Truck Priority",
+          "def": "Officers must attempt to call a contract tow before using a local tow.",
+          "tier": "Impound"
+        },
+        {
+          "term": "Warrant Identification Requirement",
+          "def": "Warrants only submitted if suspects are sufficiently identified by a minimum of 3 points.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "3 Identification Points",
+          "def": "Fingerprint or DNA (blood or hair).",
+          "tier": "Warrants"
+        },
+        {
+          "term": "2 Identification Points",
+          "def": "Facial Recognition.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "1 Identification Point",
+          "def": "Voice recognition, registered vehicle owner, gang association such as attire, gov-issued ID card, or multiple visual matches.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "Search Warrant \u2014 Detective Required",
+          "def": "To obtain a Search Warrant, an LEO must have already established Probable Cause. LEOs are required to contact a Detective, who will present evidence to the DOJ. Warrants are only legal if approved by a Judge or DA.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "Search Warrant \u2014 Private Residence Criteria",
+          "def": "Evidence shows suspect currently in possession of illegal items/weapons; repeat offenses with weapons; photo/video evidence of suspect entering residence before/after a crime; any crime in immediate vicinity of residence; verbal consent negates need for warrant.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "Search Warrant \u2014 Vehicle Criteria",
+          "def": "Robbery suspect apprehended, matching plate verified, suspect doesn't have valuables on person; suspect witnessed reaching into trunk and removing Class 2/3 firearm; vehicle used in commission of a crime negates need.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "Search Warrant \u2014 DNA Collection",
+          "def": "When DNA evidence is found at a crime scene, two or more of: Clothing Recognition, Fingerprints on Bullet Casings, Voice ID at scene, Persons of interest who become suspects after scene/evidence processing.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "Fingerprint Collection Warrant",
+          "def": "Reasonable suspicion based on: Individual seen near scene, Individual seen leaving area, Multiple credible eye-witness reports, Individual seen over-looking a crime scene.",
+          "tier": "Warrants"
+        },
+        {
+          "term": "Off-Duty Carry \u2014 Patrol Officer+",
+          "def": "For self-defense, patrol officers+ may carry one LSPD-issued Service Pistol, Combat Pistol, or Heavy Pistol (subject to rank), and ammunition for that pistol, while off duty.",
+          "tier": "Off-Duty"
+        },
+        {
+          "term": "Off-Duty Storage Rule",
+          "def": "Police-issued firearms must be safely stored where they are unlikely to be stolen when not on the officer's person.",
+          "tier": "Off-Duty"
+        },
+        {
+          "term": "Off-Duty \u2014 Other Equipment",
+          "def": "No other equipment may be used or carried off duty unless authorized in special circumstances by a Captain+.",
+          "tier": "Off-Duty"
+        },
+        {
+          "term": "Pacific Standard Robbery Unit Cap",
+          "def": "Up to but NOT exceeding 8 officers on the ground, in addition to Air-1.",
+          "tier": "Disproportionate Response"
+        },
+        {
+          "term": "Barricaded Suspect Unit Cap",
+          "def": "Rooftops, small buildings, construction areas: up to 7 units. Large buildings (Morgue, Humane Labs): up to 8 units.",
+          "tier": "Disproportionate Response"
+        },
+        {
+          "term": "Conditional Pursuit Extra Units",
+          "def": "Pursuits with known violent individuals affiliated with gangs that flee unconventionally warrant 1-2 extra units to run parallel.",
+          "tier": "Disproportionate Response"
+        },
+        {
+          "term": "Air-1 Counting",
+          "def": "Counts as 1 toward officers on scene (pilot + spotter); any shooter in the helicopter also counts as 1 toward total.",
+          "tier": "Disproportionate Response"
+        },
+        {
+          "term": "Gang Violence Charging Rule",
+          "def": "When charging with gang violence, no other charges for violent crimes unless against police. Suspect may also be charged for illegal possessions and fleeing where applicable.",
+          "tier": "Gang Violence"
+        },
+        {
+          "term": "Gang Scene \u2014 Area Announcement",
+          "def": "First Officer on scene sends out an area-wide announcement using the Quick Action Button.",
+          "tier": "Gang Violence"
+        },
+        {
+          "term": "Gang Scene \u2014 Wait Time",
+          "def": "From the time the area-wide announcement is sent out, wait a MINIMUM of ONE MINUTE before moving in to secure suspects, make arrests, etc.",
+          "tier": "Gang Violence"
+        },
+        {
+          "term": "Gang Scene \u2014 GSR Required",
+          "def": "All persons found on scene are to be detained, GSR Tested and searched on a positive test result. Anyone with a positive GSR test is eligible to be charged with Gang Violence.",
+          "tier": "Gang Violence"
+        },
+        {
+          "term": "Prison Transport Channel",
+          "def": "Use radio channel 40 \u2014 DOC Ops 1 for all communications, even in lieu of on-duty DOC.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Transport \u2014 Sentence Min",
+          "def": "Transports are only permitted for a prison sentence of 10 months or longer.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Transport \u2014 Officer Min",
+          "def": "Prison Bus transport is only permitted if there are 2 or more officers on duty at time of transport.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Transport \u2014 Gang Limits",
+          "def": "Transports should be limited to those not identified as being in a gang and low-level gang members. Higher security gang members should be limited to those with 100+ months.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Transport \u2014 Time Credit",
+          "def": "Time served shall be credited for the time required to transport. If suspect's friends/gang members attempt to free the suspect or interfere with transport, no time served will be credited to the jail sentence.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Riot \u2014 Stage Location",
+          "def": "When responding to assist EMS, Riot Calls, or any Calls in the prison, stage in the alley beyond the second gate until all responding officers have arrived.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Riot \u2014 Weapon Ratio",
+          "def": "Officers prepared to engage with prisoners Lethally and Non-Lethally, at a preferred ratio of 1 Lethal Weapon to 1 Non-Lethal Weapon (Taser, Bean-Bag Shotgun, or Baton).",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Residential Alarm Response",
+          "def": "Knock on the door and clearly announce presence as Law Enforcement. Wait 60 seconds for any occupant to respond or exit. After completing those steps, LEOs may enter the residence.",
+          "tier": "Residential"
+        },
+        {
+          "term": "Class A Hat",
+          "def": "Class A hat is not required, but can be worn if you choose.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Uniform Alteration",
+          "def": "Altering the class A uniform is not allowed. Failure to follow uniform guidelines is a breach of SOPs and will be treated as such.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Mask/Hat/Makeup Restriction",
+          "def": "Officers are not allowed to wear masks, goofy hats/glasses, makeup, or face tattoos while on duty.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Pearlescent Color Restriction",
+          "def": "Officers may not use any secondary/pearlescent colors on marked or unmarked PD vehicles, including interceptors.",
+          "tier": "Going on Duty"
+        },
+        {
+          "term": "Officer Down \u2014 Medical Treatment",
+          "def": "Any officer who has received medical treatment for wounds is not permitted to return to the scene until hostilities have ceased and the LSPD is engaged in scene clearing.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Investigation for Corruption",
+          "def": "An officer accused of violating the SOPs will be investigated for Corruption. If found guilty, will face administrative action and potential removal from the LSPD.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Engagement Reporting (Senior Staff)",
+          "def": "Any certification leads/commanders and members of senior staff who are engaged to be married to a civilian must report such engagement to the Chief or Asst Chief within 7 days of engagement and no later than the day of the wedding.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Romantic Disclosure Penalty",
+          "def": "Failing to disclose any romantic or physically intimate relationship to senior staff, or refusal to sign a waiver, is grounds for corrective action up to and including termination of employment with the Los Santos Police Department.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Officer-Civilian Detained Reasoning",
+          "def": "When placing a suspect in handcuffs, an officer shall communicate the reasons for the detention. Suspects should never be detained without first being provided a valid reason.",
+          "tier": "Interactions"
+        },
+        {
+          "term": "Belittling Civilians",
+          "def": "All interactions with civilians should be in a respectful and appropriate demeanor. Do not belittle or verbally abuse civilians.",
+          "tier": "Interactions"
+        },
+        {
+          "term": "Civilian Interfering with Investigation",
+          "def": "An officer may detain the individual. Civilians may be present at the scene of an investigation so long as they are providing ample space per officer request and not impeding officer duties.",
+          "tier": "Interactions"
+        },
+        {
+          "term": "Wanted Status Privacy",
+          "def": "Civilians inquiring about their wanted status will be required to report to a police station and provide proper ID. Officers shall not communicate this information over phone, text messaging, or Twitter.",
+          "tier": "Interactions"
+        },
+        {
+          "term": "Name and Badge Disclosure",
+          "def": "Unless serving in an undercover capacity, you are REQUIRED to give your name and badge number when asked by anyone while on duty.",
+          "tier": "Interactions"
+        },
+        {
+          "term": "Removing Suspects from Scene",
+          "def": "Suspects should not be moved off scene or lodged in an ambulance or police car until the immediate area of the scene is secure.",
+          "tier": "Interactions"
+        },
+        {
+          "term": "Probable Cause \u2014 Hunting Grounds Rifle",
+          "def": "An officer is observed hunting outside the hunting grounds \u2014 generates probable cause.",
+          "tier": "Probable Cause"
+        },
+        {
+          "term": "Misdemeanor/Infraction Lawyer",
+          "def": "Officers can contact a lawyer for Infractions or Misdemeanors at their direction.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Lawyer Decline Penalty",
+          "def": "A suspect can decline their rights to a lawyer, however cannot receive ANY deductions if a lawyer was available and on duty.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Court System Discount",
+          "def": "An officer can discount Jail time, Restitution, and Fines based on the Lawyer's ability to handle the case well.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Court Testimony Requirement",
+          "def": "Officers may be called upon to testify in court during a bench trial, and will be required to provide in-person testimony in those cases.",
+          "tier": "Processing"
+        },
+        {
+          "term": "DA Plea Deal Authority",
+          "def": "Officers are required to issue fines and/or jail times in accordance with plea deals or bargains as directed by the District Attorney or court system representative.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Speed Bomb Procedure",
+          "def": "If a vehicle is known to have a speed bomb attached a tow truck should be called to transport it to the impound where a mechanic will 'disarm' the bomb. If a tow truck is not available, the vehicle should be locked and left alone. Civilians in the area should be warned to not tamper with the vehicle.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Smoking Van Impound",
+          "def": "All vans found to be billowing smoke shall be impounded regardless of the suspect paying the ticket or going to jail.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Tow Truck for Refused Ticket",
+          "def": "A tow truck can be called for a suspect's vehicle if they have refused to pay their ticket and are being transported to prison and/or jail. This should only be done if the scene has been called 'All Clear' and shall not be done during active hostile activities.",
+          "tier": "Processing"
+        },
+        {
+          "term": "Multiple Counts Same Incident",
+          "def": "Individuals may only be charged with multiple counts of a single offense when that individual committed the offenses in separate incidents.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Locals Crime Treatment",
+          "def": "Crimes against locals are treated the same as a crime against another Civilian.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "ADA/DA/Judge Limits",
+          "def": "ADA/DA/Judge have their own prescribed limits as defined by the Civilian Rights which they can provide to an LEO for sentencing.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Going Beyond 60 Months",
+          "def": "To extend a sentence beyond the 60 month cap, an Lt+ granting approval should consider factors such as heavy warrants, out of control violence, or other extenuating factors. Going beyond 60 should be the exception, not the norm.",
+          "tier": "Ticketing"
+        },
+        {
+          "term": "Sergeant Approval for Tire Shooting",
+          "def": "If Lt+ is unavailable on duty, a Sergeant may provide approval to shoot tires of a fleeing vehicle.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Class-3 at Pacific Standard",
+          "def": "Class-3 Usage is permitted at Pacific Standard Bank and Bobcat. Class-3s May be un-racked at Blaine County Savings Bank Related Calls but assess whether they should be used as prescribed above.",
+          "tier": "Heavy Weapons"
+        },
+        {
+          "term": "Class-3 Onset Numbering Rule",
+          "def": "A LEO is far Out Numbered by Suspects Retaining a Ratio of at Least 3 Suspects to 1 LEO. However this ratio must be held for the entire scene not when the scene has enough LEOs to match or exceed force needed. This decision should also not be made mid scene where the total number of suspects is already known.",
+          "tier": "Heavy Weapons"
+        },
+        {
+          "term": "Pointed Weapon at LEO",
+          "def": "Any weapon pointed at an LEO by hostile persons is grounds to shoot in defense.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Gang Scene \u2014 Don't Drive In",
+          "def": "Do not drive into the center of the shootout. Officers should set up a perimeter a few blocks out. Make sure civilians don't enter the area, and scan for injured persons and suspects trying to flee.",
+          "tier": "Gang Violence"
+        },
+        {
+          "term": "Gang Scene \u2014 Looting Exception",
+          "def": "Where hostilities have ceased and one side is looting the other, you may move in sooner than the 60 seconds with enough units. Focus is stopping the stealing, pushing the hostile side off scene, securing an arrest. Verbal demands should be made.",
+          "tier": "Gang Violence"
+        },
+        {
+          "term": "Gang Scene \u2014 Active Robbery",
+          "def": "If you see someone immediately in front of your position trying to rob someone of their possessions, actively kidnapping someone, or collecting their injured associates, you are to stand your ground and demand them to surrender.",
+          "tier": "Gang Violence"
+        },
+        {
+          "term": "Prison Ops \u2014 Senior DOC Override",
+          "def": "Any point in this section may be overridden by the most senior DOC member on duty, when required.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Procedure \u2014 Clear Rooms",
+          "def": "Proceed into the secure area of the prison and clear all rooms of the facility, beginning with the visitor center.",
+          "tier": "Prison Ops"
+        },
+        {
+          "term": "Prison Procedure \u2014 Detain",
+          "def": "Detain all prisoners until such a time as the threat is neutralized.",
+          "tier": "Prison Ops"
+        }
+      ]
+    },
+    "codes": {
+      "label": "Codes & Signals",
+      "icon": "\ud83d\udcfb",
+      "description": "Radio codes, dispatch signals, and standard callouts.",
+      "items": [
+        {
+          "term": "Signal 1",
+          "def": "Danger / Use caution.",
+          "tier": "Signal"
+        },
+        {
+          "term": "Signal 4",
+          "def": "Stolen Vehicle.",
+          "tier": "Signal"
+        },
+        {
+          "term": "Signal 5",
+          "def": "Subject is wanted / has a warrant.",
+          "tier": "Signal"
+        },
+        {
+          "term": "Signal 13",
+          "def": "Officer/Deputy in need of immediate assistance / officer down. (Shift+H emergency tone in life-threatening situations.)",
+          "tier": "Signal"
+        },
+        {
+          "term": "Signal 100",
+          "def": "Clear all communications on current channel and allow for priority scene communications only.",
+          "tier": "Signal"
+        },
+        {
+          "term": "Code 1",
+          "def": "No lights, no sirens. Non-urgent. Drive safely.",
+          "tier": "Code"
+        },
+        {
+          "term": "Code 2",
+          "def": "Lights only, no sirens. Speed needed but low profile.",
+          "tier": "Code"
+        },
+        {
+          "term": "Code 3",
+          "def": "Lights and sirens. Emergency / pursuits.",
+          "tier": "Code"
+        },
+        {
+          "term": "Code 4",
+          "def": "Situation under control (at the moment).",
+          "tier": "Code"
+        },
+        {
+          "term": "Code 5",
+          "def": "Felony stop.",
+          "tier": "Code"
+        },
+        {
+          "term": "Code 6",
+          "def": "Investigating.",
+          "tier": "Code"
+        },
+        {
+          "term": "ATL",
+          "def": "Attempting to Locate.",
+          "tier": "Callout"
+        },
+        {
+          "term": "Attaching",
+          "def": "Officer is joining a scene or pursuit.",
+          "tier": "Callout"
+        },
+        {
+          "term": "UTL",
+          "def": "Unable to Locate.",
+          "tier": "Callout"
+        },
+        {
+          "term": "Break / Breaking off",
+          "def": "Officer is leaving a scene or pursuit.",
+          "tier": "Callout"
+        },
+        {
+          "term": "Clear",
+          "def": "Situation has concluded and the officer is leaving / has left the scene.",
+          "tier": "Callout"
+        },
+        {
+          "term": "Detaching",
+          "def": "Leaving a scene or pursuit before it is finished (often when numbers are too great).",
+          "tier": "Callout"
+        },
+        {
+          "term": "TC",
+          "def": "Traffic Collision.",
+          "tier": "Callout"
+        },
+        {
+          "term": "RV",
+          "def": "Rendezvous.",
+          "tier": "Callout"
+        },
+        {
+          "term": "VCB",
+          "def": "Visual Contact Broken.",
+          "tier": "Callout"
+        }
+      ]
+    },
+    "busy": {
+      "label": "Busy Codes",
+      "icon": "\ud83d\udfe1",
+      "description": "Dispatch status codes used to set busy state.",
+      "items": [
+        {
+          "term": "13",
+          "def": "Signal 13.",
+          "tier": "Busy"
+        },
+        {
+          "term": "AM",
+          "def": "Admin Duties.",
+          "tier": "Busy"
+        },
+        {
+          "term": "BU",
+          "def": "Busy.",
+          "tier": "Busy"
+        },
+        {
+          "term": "DO",
+          "def": "Desk Officer.",
+          "tier": "Busy"
+        },
+        {
+          "term": "EF",
+          "def": "Enforcement.",
+          "tier": "Busy"
+        },
+        {
+          "term": "IS",
+          "def": "In Service.",
+          "tier": "Busy"
+        },
+        {
+          "term": "IN",
+          "def": "Investigation.",
+          "tier": "Busy"
+        },
+        {
+          "term": "MT",
+          "def": "Meeting.",
+          "tier": "Busy"
+        },
+        {
+          "term": "OC",
+          "def": "On Call.",
+          "tier": "Busy"
+        },
+        {
+          "term": "OF",
+          "def": "Office.",
+          "tier": "Busy"
+        },
+        {
+          "term": "PR",
+          "def": "Processing.",
+          "tier": "Busy"
+        },
+        {
+          "term": "RW",
+          "def": "Report Writing.",
+          "tier": "Busy"
+        },
+        {
+          "term": "TI",
+          "def": "Traffic Investigation.",
+          "tier": "Busy"
+        },
+        {
+          "term": "TN",
+          "def": "Training.",
+          "tier": "Busy"
+        },
+        {
+          "term": "TS",
+          "def": "Traffic Stop.",
+          "tier": "Busy"
+        }
+      ]
+    },
+    "phonetic": {
+      "label": "Phonetic Alphabet",
+      "icon": "\ud83d\udd24",
+      "description": "NATO/LAPD phonetic alphabet \u2014 both equivalents accepted.",
+      "items": [
+        {
+          "term": "A",
+          "def": "Alpha / Adam",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "B",
+          "def": "Bravo / Boy",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "C",
+          "def": "Charlie / Charles",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "D",
+          "def": "Delta / David",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "E",
+          "def": "Echo / Edward",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "F",
+          "def": "Foxtrot / Frank",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "G",
+          "def": "Golf / George",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "H",
+          "def": "Hotel / Henry",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "I",
+          "def": "India / Ida",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "J",
+          "def": "Juliet / John",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "K",
+          "def": "Kilo / King",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "L",
+          "def": "Lima / Lincoln",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "M",
+          "def": "Mike / Mary",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "N",
+          "def": "November / Nora",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "O",
+          "def": "Oscar / Ocean",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "P",
+          "def": "Papa / Paul",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "Q",
+          "def": "Quebec / Queen",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "R",
+          "def": "Romeo / Robert",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "S",
+          "def": "Sierra / Sam",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "T",
+          "def": "Tango / Tom",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "U",
+          "def": "Uniform / Union",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "V",
+          "def": "Victor",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "W",
+          "def": "Whiskey / William",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "X",
+          "def": "Xray",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "Y",
+          "def": "Yankee / Young",
+          "tier": "Phonetic"
+        },
+        {
+          "term": "Z",
+          "def": "Zulu / Zebra",
+          "tier": "Phonetic"
+        }
+      ]
+    },
+    "procedures": {
+      "label": "Procedures & Theory",
+      "icon": "\ud83d\udcd6",
+      "description": "Use of force, ATM model, search exceptions, felony stop roles, mechanics.",
+      "items": [
+        {
+          "term": "Use of Force \u2014 LEO Presence",
+          "def": "Level 1. Presence of a uniformed officer or marked vehicle may be enough to make individuals comply with the law and/or de-escalate a situation.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Use of Force \u2014 Verbal Commands",
+          "def": "Level 2. Clear, understandable directions given to subjects to tell them what to do and notify them of the officer's intentions.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Use of Force \u2014 Less-Lethal",
+          "def": "Level 3. Tools at the officer's disposal less likely to cause serious bodily injury or death \u2014 baton and taser.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Use of Force \u2014 Lethal",
+          "def": "Level 4. Weapons at the officer's disposal with high probability of serious bodily injury or death \u2014 pistol, rifles, shotguns.",
+          "tier": "Use of Force"
+        },
+        {
+          "term": "Ask, Tell, Make \u2014 Ask",
+          "def": "Asking subjects politely to do something, e.g., 'Sir/Madam, please stop walking away from me.'",
+          "tier": "ATM"
+        },
+        {
+          "term": "Ask, Tell, Make \u2014 Tell",
+          "def": "Tell the subject to stop disobeying orders. e.g., 'Stop walking away from me.'",
+          "tier": "ATM"
+        },
+        {
+          "term": "Ask, Tell, Make \u2014 Make",
+          "def": "Make the subject follow your order, e.g., 'Sir/Madam, if you continue to walk away from me you will be tased.' Then act if continued refusal.",
+          "tier": "ATM"
+        },
+        {
+          "term": "Probable Cause",
+          "def": "Allows an officer to search a civilian, their vehicles, or vehicles which they have keys to. Established when officers have access to information indicating a person committed a crime, a location served as a crime scene, or items at a location have been stolen.",
+          "tier": "PC/RS"
+        },
+        {
+          "term": "Reasonable Suspicion",
+          "def": "A step before probable cause \u2014 any reasonable person would suspect a crime was being, had been, or was about to be committed. May be used to build a case and submit warrants.",
+          "tier": "PC/RS"
+        },
+        {
+          "term": "Letter of the Law",
+          "def": "What the law states.",
+          "tier": "PC/RS"
+        },
+        {
+          "term": "Spirit of the Law",
+          "def": "What the law intends alongside the LEO's social and moral consensus of the interpretation of the letter of the law.",
+          "tier": "PC/RS"
+        },
+        {
+          "term": "Search \u2014 Lawful Arrest",
+          "def": "All subjects placed under arrest must be searched on scene and once again when transported to a police station.",
+          "tier": "Searching"
+        },
+        {
+          "term": "Search \u2014 Impounded Vehicles",
+          "def": "Vehicles used in the commission of a crime may be searched before being sent to the impound.",
+          "tier": "Searching"
+        },
+        {
+          "term": "Search \u2014 Consent",
+          "def": "Any individual giving clear consent to search themselves, their property, or vehicle may be searched. Compliant subjects do not need to be cuffed.",
+          "tier": "Searching"
+        },
+        {
+          "term": "Search \u2014 Exigent Circumstances",
+          "def": "Situations causing a reasonable person to believe that prompt action is necessary to prevent physical harm.",
+          "tier": "Searching"
+        },
+        {
+          "term": "Search \u2014 Plain View",
+          "def": "No warrant needed to seize evidence in plain view. Officer must first be legitimately and legally in the location where the evidence can be plainly viewed.",
+          "tier": "Searching"
+        },
+        {
+          "term": "Search \u2014 Hot Pursuit",
+          "def": "When evidence can be easily moved/destroyed before a warrant can be issued, evidence or individual may be seized without a warrant under Hot Pursuit exception.",
+          "tier": "Searching"
+        },
+        {
+          "term": "Pat-Down (Frisk)",
+          "def": "Used when reasonable suspicion is present and there's reason to believe the subject is armed. Limited to outer clothing and only checking for weapons.",
+          "tier": "Searching"
+        },
+        {
+          "term": "Felony Stop \u2014 Primary",
+          "def": "Initiating Officer, positioned behind the vehicle like a normal traffic stop, making commands to backup units and to occupants. Makes commands to the driver of the vehicle.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Secondary",
+          "def": "Second unit to arrive on scene; positions to have a clear view of the passenger side while providing cover for the tertiary.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Tertiary",
+          "def": "Third officer on scene. Parks rear, perpendicular to primary and secondary, providing rear security and cover. Follows the 70/30 rule (70% rear, 30% looking at others). Goes in for arrests.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 70/30 Rule",
+          "def": "Tertiary officer spends 70% of their time covering the rear, and 30% turning to look at the other officers and ensure everything is going well.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Firing Line",
+          "def": "The 'firing line' is the front bumper of the police cruiser. No officer should pass this line until all known occupants are out safely and in custody.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Pursuit \u2014 Required Comms",
+          "def": "Vehicle make and model, vehicle plate, consistent direction and road callouts to dispatch, inform officers if they should take comms or if you are doubled up.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Pursuit \u2014 Driving Standards",
+          "def": "ALWAYS be Code 3. Don't follow too closely, watch for civilians, drive as safely as possible, don't recklessly chase.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Foot Pursuit Building Rule",
+          "def": "Do not pursue into buildings unless you are on the suspect's heels; if too far ahead, they'll have time to get to cover before you run through the door.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Pursuit \u2014 Deadly Force Approval",
+          "def": "While in active pursuit, deadly force can be used to end the pursuit for the sake of public/apprehension. Any deadly force during pursuit must be approved by a supervisor.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "PIT \u2014 Definition",
+          "def": "Pursuit Intervention Technique \u2014 use of officer's vehicle against a suspect's vehicle to end a pursuit. Considered deadly force.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "PIT \u2014 Performing",
+          "def": "Aim for the rear corners of the vehicle and push the front opposite corner of your vehicle into them.",
+          "tier": "Pursuits"
+        },
+        {
+          "term": "Quick-Cuff Rule",
+          "def": "Where someone puts hands up or enters surrender animation. Prompt to cuff with the E key. CANNOT quick-cuff someone after they are tased \u2014 must use third-eye or M menu.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Cuffing After Tase",
+          "def": "Do NOT immediately go for cuffs after tasing \u2014 direct them to surrender during animation. After 2nd or 3rd attempt, go in for cuffs. Use third-eye or M menu only (never quick-cuff).",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Third-Eye Cuffing",
+          "def": "Use the Third-Eye (Left Alt key) to handcuff people at any time.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "M Menu Cuffing",
+          "def": "Use the police menu (M key) to handcuff. In a crowd, you may have to select the intended target via gray arrows that appear above heads.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Checking Handcuffs",
+          "def": "Hover over someone with your third eye to see if they're cuffed. Especially useful for incapacitated suspects.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Never Cuff in Water",
+          "def": "Never tase or handcuff anybody in water.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Never Cuff Running Suspect",
+          "def": "Never handcuff someone while running \u2014 you or them.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Don't Cuff From Front",
+          "def": "Don't handcuff people from the front of them.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Shackles Use",
+          "def": "High level of force as they restrict movement entirely. Use only when truly necessary (e.g., suspect refusing to stay put or attempting self-harm). Never shackled when picked up by EMS after incapacitation.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "GSR Test \u2014 When",
+          "def": "Recommended whenever arresting someone who has used a firearm even if witnessed. Strong reading = recently fired; weak = less recent. Always make individual aware before administering.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "GSR Test \u2014 How",
+          "def": "Find GSR Kit in inventory, drag to 'Use' option on right, select intended target. Prompt appears on screen with strength: WEAK to STRONG.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Slim Jim Use",
+          "def": "Available in LEO Equipment supplies \u2014 used to pop locks on vehicles. Be cautious as not only illegal items may be inside but hostages or hidden criminals.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "VIN Lookup",
+          "def": "Pop the hood and use M > Police > Vehicle > VIN. Most solid way to confirm real registration and RO if you suspect a fake plate.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Vehicle Searching",
+          "def": "Walking up to the car and opening the trunk via the H key prompt. Or M Menu Vehicle Search: M > Police > Vehicle > Search.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Put In/Pull Out Vehicle",
+          "def": "M Menu: M > Police > Put in/Pull Out. If incapacitated/downed, escort them first. Or third-eye the desired vehicle and select 'Put In'.",
+          "tier": "Mechanics"
+        },
+        {
+          "term": "Emergency Activation Button",
+          "def": "Shift+H \u2014 sends a dispatch-wide alert with a loud sound. NEVER hit when in immediate danger (gun to your head etc.). Big NVL violation.",
+          "tier": "Comms"
+        },
+        {
+          "term": "Channel Bumping",
+          "def": "Shift+Z key automatically bumps you up a channel. Goes UP only. Z key alone toggles between Global & other channels.",
+          "tier": "Comms"
+        },
+        {
+          "term": "Global Channels",
+          "def": "Broadcast over all channels to the respective faction. Always make sure you are not accidentally broadcasting traffic over the Global channel when not necessary.",
+          "tier": "Comms"
+        },
+        {
+          "term": "Radio Comms \u2014 Who/What/Why/Where",
+          "def": "Who (callsign), What (radio traffic for), Why (helps officers understand), Where (current location or where you're headed).",
+          "tier": "Comms"
+        },
+        {
+          "term": "Robbery \u2014 First Officer Role",
+          "def": "Primary calls out arrival, gives info on getaway vehicles/suspects/weapons, takes up position by the door, makes contact, and focuses on hostage status and demands.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Secondary Role",
+          "def": "Posts up near primary (behind/across door), takes over comms so primary can focus on negotiation, keeps other officers updated.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Tertiary+ Role",
+          "def": "Additional officers should check around the sides and back or the roof to ensure no one is waiting to ambush officers.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Negotiation Mentality",
+          "def": "Try to guide negotiations into a one-for-one mentality. If suspects ask for no spike strips and free passage, try to make it more equal \u2014 be creative.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Class-3 Usage Permission",
+          "def": "Permitted at Pacific Standard Bank and Bobcat. May be un-racked at Blaine County Savings Bank related calls but assess whether they should be used.",
+          "tier": "Heavy Weapons"
+        },
+        {
+          "term": "When to Use Heavy Weapons",
+          "def": "Suspects using Class 3's (match with rifles); Class 4's (match with SMGs but not rifles); shotguns (match with shotguns but not rifles/SMGs); Edged/Bladed weapon attacks; LEO outnumbered 3:1.",
+          "tier": "Heavy Weapons"
+        },
+        {
+          "term": "Weapon Display Rule",
+          "def": "Officers should not be displaying their class 3's in situations like general traffic stops, while on break, or while processing suspects unless authorized by a Sgt+.",
+          "tier": "Heavy Weapons"
+        },
+        {
+          "term": "Training Rifle Authorization",
+          "def": "Training Rifle and Training Rifle Mk. 2 are locked under approval of a Captain+ ahead of time. Use without approval results in immediate disciplinary action.",
+          "tier": "Heavy Weapons"
+        },
+        {
+          "term": "Weapon Safety \u2014 Rule 1",
+          "def": "Always treat the gun as if it is loaded.",
+          "tier": "Weapon Safety"
+        },
+        {
+          "term": "Weapon Safety \u2014 Rule 2",
+          "def": "Always keep your finger straight and off the trigger until you are ready to shoot.",
+          "tier": "Weapon Safety"
+        },
+        {
+          "term": "Weapon Safety \u2014 Rule 3",
+          "def": "Be sure of your target and what is beyond it (backdrop).",
+          "tier": "Weapon Safety"
+        },
+        {
+          "term": "Weapon Safety \u2014 Rule 4",
+          "def": "Be aware of your surroundings when handling guns so you don't trip or lose your balance and accidentally point and/or fire the gun at anyone or anything.",
+          "tier": "Weapon Safety"
+        },
+        {
+          "term": "CPR Steps",
+          "def": "Open the victim's airway and tilt their head back slightly. Check for breathing. Push hard, push fast \u2014 compressions at least 2 inches deep. Two rescue breaths every 30 compressions.",
+          "tier": "Medical"
+        },
+        {
+          "term": "Bleeding Treatment",
+          "def": "Apply direct pressure with clean cloth/gauze. If blood soaks through, don't remove \u2014 add more on top. Raise limb over heart for arm/leg wounds. Tourniquet only if severe and direct pressure fails.",
+          "tier": "Medical"
+        }
+      ]
+    },
+    "ranks": {
+      "label": "Ranks & Equipment",
+      "icon": "\ud83c\udf96",
+      "description": "LSPD rank structure and equipment authorization tiers.",
+      "items": [
+        {
+          "term": "Cadet/Recruit",
+          "def": "Initial training rank. Must complete academy and field training. Wears Class A uniform throughout training and probationary stages.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Probationary Officer",
+          "def": "Post-academy rank during solo probation week. Rides alone to demonstrate independent ability.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Patrol Officer",
+          "def": "Full officer rank after probationary period. Heavy Pistol, Shotgun & above weapons authorized.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Senior Officer",
+          "def": "Experienced patrol officer. Everything below + previous loadouts.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Corporal (Cpl)",
+          "def": "First supervisory tier. M16 & above weapons authorized. May request motorcycle/bike/snowmobile use.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Sergeant (Sgt)",
+          "def": "Junior supervisor. Authorizes PIT maneuvers, vehicle seizures, unmarked vehicles. Pump Shotgun (12 Gauge) authorized.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Lieutenant (LT)",
+          "def": "Senior supervisor. May extend sentences to 120 months. Approves shooting tires, UC vehicles, Schlagen GT use.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Captain",
+          "def": "Command staff. Authorizes Training Rifles, off-duty special equipment use.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Assistant Chief",
+          "def": "Senior command. Reports directly to Chief.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Chief of Police",
+          "def": "Highest rank in LSPD.",
+          "tier": "Rank"
+        },
+        {
+          "term": "Heavy Pistol",
+          "def": ".45 ACP Ammo. Senior P.O+ rank required.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Combat Pistol",
+          "def": ".40 S&W Ammo. Available to all ranks.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Glock 17",
+          "def": ".40 S&W Ammo. Available to all ranks.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Service Pistol",
+          "def": "Standard issue sidearm. Available to all ranks.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Nightstick",
+          "def": "Less-lethal melee weapon.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Taser",
+          "def": "Less-lethal energy weapon. Uses Taser Cartridges.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "M16A2 Rifle",
+          "def": "5.56 NATO Ammo. Cpl+ rank required.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Pump Shotgun",
+          "def": "12 Gauge Shell. Sgt+ rank required.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "MP5A3 (SMG)",
+          "def": "10mm. Available to standard loadouts.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Carbine Rifle",
+          "def": "5.56 NATO Ammo.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "MK2 Carbine Rifle",
+          "def": "5.56 NATO Ammo. SWAT & GU only.",
+          "tier": "Weapon"
+        },
+        {
+          "term": "Police Body Armor",
+          "def": "Standard issue protective equipment. Cadets need x2 for academy.",
+          "tier": "Protective"
+        },
+        {
+          "term": "IFAK",
+          "def": "Individual First Aid Kit. Medical equipment.",
+          "tier": "Protective"
+        },
+        {
+          "term": "GSR Test Kit",
+          "def": "Gunshot residue test. Used to grant probable cause when responding to firearm-related crimes. Cadets need x10 for academy.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Mobile Fingerprint Scanner",
+          "def": "Tool for identifying unknown individuals via fingerprint.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Substance Test Kit",
+          "def": "Tool for testing/identifying substances.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Weapon Detector",
+          "def": "Detects weapons.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Spike Strips",
+          "def": "Used to disable vehicle tires during pursuits.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Police Barrier",
+          "def": "Used for crowd/scene control.",
+          "tier": "Equipment"
+        },
+        {
+          "term": "Evidence Bin",
+          "def": "Used to log evidence.",
+          "tier": "Equipment"
+        }
+      ]
+    },
+    "mdt": {
+      "label": "MDT & Tools",
+      "icon": "\ud83d\udcbb",
+      "description": "Mobile Data Terminal sections and digital tools available to officers.",
+      "items": [
+        {
+          "term": "MDT Startup",
+          "def": "Open tablet using O key. Open the CAD app. Only accessible when clocked in as an LEO.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Persons Section",
+          "def": "Search records of individuals. Type name or use 'Scan ID' button to bring up profile. Shows mugshot, basic info, and tabs for Involved Incidents, Details, Known Affiliates, Vehicles, Parole History, All Charges, Owned Houses, Co-Owned Houses.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Parole Section",
+          "def": "View any active Parolees and how long they have left on parole. Shows mugshots and details. All fines/time issued via tablet.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Wanted Section",
+          "def": "All current suspects with outstanding warrants. Selecting warrant brings up most recent incident; scroll for Linked Incidents.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Incidents Section",
+          "def": "Police reports of prior incidents. Each report has a REP-Number. Useful for giving over to DOJ employees. Tabs: All Incidents, BOLOs, Incident Types, Incident Variations.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Submit Section",
+          "def": "Make reports. Shows current location, title field, incident category dropdown, variation dropdown, crime type drop box, suspect field. Incident Summary is optional \u2014 fill it after processing.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Bulletin Section",
+          "def": "Up-to-date with command staff and supervisor announcements regarding the Department.",
+          "tier": "MDT"
+        },
+        {
+          "term": "DB Query Section",
+          "def": "Search license plates, driver license numbers, and firearms registrations. Go-to for traffic stops.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Alerts Section",
+          "def": "Send out local & state wide announcements during emergencies. Use to evacuate areas or alert officers.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Ticketing Aid Section",
+          "def": "Full list of charges from Misdemeanors to Felonies. Includes base Fines, Restitution, max Prison time, and parole-time max (red).",
+          "tier": "MDT"
+        },
+        {
+          "term": "Documents Section",
+          "def": "All recent LEO documents \u2014 vehicle seizure notices, Police Reports written/submitted by citizens at police stations.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Remove Police Report",
+          "def": "Reach out to LT+ in any department. Includes adding someone as a suspect by mistake through Add Person option.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Restrict Report",
+          "def": "Type the name of specific people you wish to be able to see the details of the report.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Evidence Locker",
+          "def": "Open the evidence locker of the report and place evidence inside. Only at a police station.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Link Incident",
+          "def": "Link an incident that relates to yours. Need REP-Number of the report you wish to link.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Add Vehicle",
+          "def": "Add the license plate of any vehicle involved and the amount of time they were sent to impound, if any.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Add Person",
+          "def": "Add any person involved in the incident \u2014 suspect, LEO, or witness.",
+          "tier": "MDT"
+        },
+        {
+          "term": "Print Report",
+          "def": "Print off the report if needed if standing by a printer.",
+          "tier": "MDT"
+        }
+      ]
+    },
+    "training": {
+      "label": "Training & Career",
+      "icon": "\ud83c\udf93",
+      "description": "Cadet training timeline, deadlines, and probationary requirements.",
+      "items": [
+        {
+          "term": "Field Training Deadline",
+          "def": "30 days to complete field training. The 30-day clock starts when you graduate academy.",
+          "tier": "Deadlines"
+        },
+        {
+          "term": "Two-Week Inactivity Rule",
+          "def": "If you go two weeks without training during your field training phase, you'll be required to have a conversation with a sergeant+ and may be removed from the program.",
+          "tier": "Deadlines"
+        },
+        {
+          "term": "Deadline Extension",
+          "def": "If approaching your 30-day deadline and need more time, contact a captain+ to request an extension and discuss a plan.",
+          "tier": "Deadlines"
+        },
+        {
+          "term": "Solo Probation Length",
+          "def": "Solo probation lasts for one week.",
+          "tier": "Deadlines"
+        },
+        {
+          "term": "MRAL",
+          "def": "Mock Ride-Along \u2014 a sergeant conducts a practice ride-along similar to an ERAL and gives feedback. Optional but recommended before ERAL.",
+          "tier": "Training"
+        },
+        {
+          "term": "ERAL",
+          "def": "Evaluation Ride-Along \u2014 final test conducted by an LT to evaluate readiness. Highly recommended to email LTs to schedule individually.",
+          "tier": "Training"
+        },
+        {
+          "term": "Class A Uniform Requirement",
+          "def": "Cadets/recruits and probationary officers must wear class A uniforms throughout training and probationary stages. Class A hat is not required.",
+          "tier": "Uniform"
+        },
+        {
+          "term": "Vehicle in Training",
+          "def": "Authorized to use the Stanier during training and probationary stages.",
+          "tier": "Uniform"
+        },
+        {
+          "term": "Cadet Identification",
+          "def": "You don't have to identify yourself as 'Recruit/Cadet [Name]' \u2014 'Officer [Name]' is acceptable. If asked, you can acknowledge being in training.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Solo Clock-In Rule",
+          "def": "Cadets/recruits may not clock in without an LSPD trainer with the exception of going on desk duty.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Multiple Trainer Rule",
+          "def": "Cadets should try to get training from as many different trainers as possible \u2014 every trainer has their own style and perspective.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Probationary Solo Stage",
+          "def": "During solo probation, you clock on without a trainer. Should be riding alone to practice and demonstrate ability to work independently.",
+          "tier": "Probationary"
+        },
+        {
+          "term": "Probationary Partner Rule",
+          "def": "May ride with a partner if there is an ongoing threat and officers have been advised to partner up for safety.",
+          "tier": "Probationary"
+        },
+        {
+          "term": "Probationary Ride-Along Rule",
+          "def": "Probationary officers may not give ride-alongs to civilians.",
+          "tier": "Probationary"
+        },
+        {
+          "term": "Desk Officer \u2014 Cadet Eligibility",
+          "def": "After graduating academy, cadets may clock on as a desk officer at VPD or VSPD. Up to three cadets at a time can clock on as desk officers.",
+          "tier": "Desk Officer"
+        },
+        {
+          "term": "Desk Officer \u2014 Active Officer Required",
+          "def": "There must be officers (LSPD or BCSO) on active duty when clocking on as a desk officer while a cadet/recruit. Check at MRPD; if no contact, can clock into training BRIEFLY to check.",
+          "tier": "Desk Officer"
+        },
+        {
+          "term": "Desk Officer \u2014 Dress Code",
+          "def": "Wear business casual clothing and look neat and professional. INV uniform in locker room is acceptable, but remove the holster.",
+          "tier": "Desk Officer"
+        },
+        {
+          "term": "Desk Officer \u2014 Restrictions",
+          "def": "May not leave MRPD property. May not respond to calls. Considered a direct witness to any crimes seen on/around VPD property.",
+          "tier": "Desk Officer"
+        },
+        {
+          "term": "Desk Officer \u2014 Equipment",
+          "def": "Can carry a baton and flashlight, and wear body armor. No other weapons or tools may be used.",
+          "tier": "Desk Officer"
+        }
+      ]
+    },
+    "robberies": {
+      "label": "Robberies & Tactics",
+      "icon": "\ud83d\udea8",
+      "description": "Robbery response, felony stop procedure, and tactical scenarios.",
+      "items": [
+        {
+          "term": "Robbery Locations",
+          "def": "Federal banks, jewelry stores, convenience stores, gas stations, liquor stores, electronics stores.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Voice Control During Robbery",
+          "def": "Voice control is KEY. Shout so that suspects can hear you, but whisper on radio comms so suspects won't hear what you're planning.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Step 1 Primary Arrival",
+          "def": "Primary officer calls out arrival on radio with info on getaway vehicles, suspects, weapons.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Step 2 Position",
+          "def": "Primary moves in, takes position by door, makes contact with individuals inside while transmitting updates (count inside, hostage, weapons, class).",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Step 3 Negotiation",
+          "def": "Primary focuses on hostage status, ensuring hostage safety, and determining suspect demands.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Step 4 Secondary Arrival",
+          "def": "Secondary posts up near primary (behind/across door), takes over comms so primary can focus on negotiation.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Step 5 Perimeter",
+          "def": "Additional officers check around the sides, back, or roof to ensure no one is waiting to ambush.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Robbery \u2014 Step 6 Pursuit Setup",
+          "def": "Secondary organizes the scene and designates officers to post up for a pursuit. Communicates negotiated terms and updates.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "SWAT Request",
+          "def": "When dealing with barricaded suspects, kidnapped officers, class 3 firearms, or anything extremely dangerous. SWAT has tactical training and equipment patrol officers may not have.",
+          "tier": "Robberies"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 1",
+          "def": "Vehicle wanted in connection with a felony crime or imminent threat. Immediately request backup for a felony stop.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 2",
+          "def": "Once secondary and tertiary arrive, coordinate when all three exit vehicles. Hold exit key (usually F) to leave the door open for cover.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 3",
+          "def": "Primary: 'On my command, all officers exit their vehicles. Three, Two, One, Go.'",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 4",
+          "def": "Once all officers are out, primary starts giving commands.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 5",
+          "def": "'Everyone inside the vehicle, put your hands up now!' Continue until all known occupants comply.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 6",
+          "def": "'Driver, turn the vehicle off and throw the keys out the window.'",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 7",
+          "def": "'Driver, reach outside the window and open the door from the outside, then step out with your hands up.'",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 8",
+          "def": "'Listen to me carefully. I want you to look through your eyes and walk backwards to the sound of my voice. Keep coming, keep coming, stop.'",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 9",
+          "def": "'Now step to your right... keep going, keep going, stop.'",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 10",
+          "def": "'Step backwards... keep going, stop.' Suspect should be positioned behind the front bumper of the primary's car and to the left of the primary.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 11",
+          "def": "'Go for cuffs.'",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Felony Stop \u2014 Step 12",
+          "def": "Tertiary places subject in custody, searches, removes weapons, places in cruiser, returns to rear security. Avoid walking between LEO vehicles unless safely outside secondary's line of fire.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Clearing the Vehicle \u2014 Stack Up",
+          "def": "Once all known occupants in custody, primary calls 'Prepare to clear, stack up on me.' Secondary moves around and stacks behind primary. Tertiary remains at vehicle for rear security.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Clearing the Vehicle \u2014 Cutting the Pie",
+          "def": "Once secondary calls 'set,' both approach vehicle while sidestepping and arcing out. Clear rear seat first, then focus on front.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Clearing the Vehicle \u2014 Trunk",
+          "def": "Primary gets in driver's seat while secondary moves around to cover the trunk. Secondary calls 'set'; primary counts: 'Opening the trunk in three, two, one.' Trunk opens; secondary ensures clear.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Clearing the Vehicle \u2014 Code 4",
+          "def": "Once vehicle is clear, primary calls out 'Felony stop is code 4' and continues processing.",
+          "tier": "Felony Stop"
+        },
+        {
+          "term": "Traffic Stop \u2014 Position",
+          "def": "Position your vehicle at an angle a half-car length behind the stopped vehicle. Angle may vary due to terrain, location, etc.",
+          "tier": "Traffic Stops"
+        },
+        {
+          "term": "Traffic Stop \u2014 Approach",
+          "def": "Position yourself behind the B pillar. Partners approach behind the B pillar on passenger side. Never walk between your vehicle and the vehicle being pulled over.",
+          "tier": "Traffic Stops"
+        },
+        {
+          "term": "Traffic Stop \u2014 Run Info First",
+          "def": "Run the information of the vehicle in your MDT BEFORE you make your approach.",
+          "tier": "Traffic Stops"
+        },
+        {
+          "term": "Traffic Stop \u2014 Comms Format",
+          "def": "'[Callsign] Initiating stop on a (vehicle type, make, model & color) on (location), occupied x(how many people inside).'",
+          "tier": "Traffic Stops"
+        },
+        {
+          "term": "Traffic Stop \u2014 Don't Tell 'Lights Off'",
+          "def": "Do not tell the person 'You are free to go when I turn off my lights.' Lights tell other drivers to be cautious; if turned off and the stopped car pulls out and gets hit, you may find yourself in court.",
+          "tier": "Traffic Stops"
+        }
+      ]
+    },
+    "radio": {
+      "label": "Radio & Comms",
+      "icon": "\ud83d\udce1",
+      "description": "Radio channel discipline, comms format, and emergency procedures.",
+      "items": [
+        {
+          "term": "Radio Activation Key",
+          "def": "Turn on your Radio when instructed (J key by default).",
+          "tier": "Radio"
+        },
+        {
+          "term": "Channel Bump UP",
+          "def": "Shift+Z key automatically bumps you up a channel based on the number of times you hit it. Only goes UP. If overshot, manually go back which is not ideal while driving.",
+          "tier": "Radio"
+        },
+        {
+          "term": "Global Channel Toggle",
+          "def": "Z key by default toggles between Global & other channels. Always make sure you are not accidentally broadcasting traffic over the Global channel when not necessary.",
+          "tier": "Radio"
+        },
+        {
+          "term": "Yellow Mic Symbol",
+          "def": "Located at the top right of your screen \u2014 indicates which channel you are broadcasting to.",
+          "tier": "Radio"
+        },
+        {
+          "term": "DOC Ops 1",
+          "def": "Radio channel 40 \u2014 used for prison operations and DOC communications.",
+          "tier": "Radio"
+        },
+        {
+          "term": "WHO Comms Element",
+          "def": "Your call sign (e.g. '555').",
+          "tier": "Comms Format"
+        },
+        {
+          "term": "WHAT Comms Element",
+          "def": "What the radio traffic is for (e.g. 'attempting to pull over a gray 4-door sedan occupied x2').",
+          "tier": "Comms Format"
+        },
+        {
+          "term": "WHY Comms Element",
+          "def": "Can help other officers understand the situation (e.g. 'a speeding 4-door...').",
+          "tier": "Comms Format"
+        },
+        {
+          "term": "WHERE Comms Element",
+          "def": "Your current location or where you are headed (e.g. 'southbound on Elgin' or 'final stop southbound on Elgin by Pillbox').",
+          "tier": "Comms Format"
+        },
+        {
+          "term": "Don't Interrupt Priority Calls",
+          "def": "Don't interrupt priority calls (such as robberies or pursuits) with low-priority traffic.",
+          "tier": "Etiquette"
+        },
+        {
+          "term": "Move Priority Calls",
+          "def": "Do move priority calls (such as robberies or pursuits) to another channel to allow routine patrol traffic to continue communications.",
+          "tier": "Etiquette"
+        },
+        {
+          "term": "Watch Your Numbers",
+          "def": "Don't attach to scenes that already have enough officers to handle the current situation.",
+          "tier": "Etiquette"
+        },
+        {
+          "term": "Pay Attention to Distance",
+          "def": "If you are five miles away from the call and there are officers closer to the scene, wait to give them a chance to attach.",
+          "tier": "Etiquette"
+        },
+        {
+          "term": "Think Before Speaking",
+          "def": "Taking a few seconds to think about what you want to say can help you eliminate 'ummm's and make your communications smoother and easier to understand.",
+          "tier": "Etiquette"
+        },
+        {
+          "term": "No Chit-Chat on Radio",
+          "def": "Don't use the radio for chit-chat or random chatter; it is not a social channel.",
+          "tier": "Etiquette"
+        }
+      ]
+    },
+    "identification": {
+      "label": "ID & Mechanics",
+      "icon": "\ud83d\udd11",
+      "description": "Quick-reference for in-game keybinds, mechanics, and IC-to-OOC terminology.",
+      "items": [
+        {
+          "term": "Utility Belt",
+          "def": "M key.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Look Closely (Third Eye)",
+          "def": "Alt key.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Tablet/MDT",
+          "def": "O key by default.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Radio",
+          "def": "J key by default.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Emergency Activation",
+          "def": "Shift+H key \u2014 sends a dispatch-wide alert.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Channel Bump Up",
+          "def": "Shift+Z key \u2014 bumps radio channel up.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Toggle Global Channel",
+          "def": "Z key by default.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "First Person",
+          "def": "Look through your eyes (in-character term).",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Open Chat Box",
+          "def": "T key.",
+          "tier": "Keybind"
+        },
+        {
+          "term": "Set Training Status",
+          "def": "/tn Academy (chat command).",
+          "tier": "Command"
+        },
+        {
+          "term": "Set Callsign",
+          "def": "/callsign (chat command).",
+          "tier": "Command"
+        },
+        {
+          "term": "Carry (vs Escort)",
+          "def": "/carry \u2014 used to minimize risk of further injuring incapacitated suspects/LEOs in active hostile scenes.",
+          "tier": "Command"
+        },
+        {
+          "term": "Release from Prison",
+          "def": "/ptime command \u2014 used at the prison to release someone.",
+          "tier": "Command"
+        },
+        {
+          "term": "Meditating / Playing on Phone",
+          "def": "AFK or non-responsive IC (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Take a Nap",
+          "def": "Reconnect to the game (usually to get rid of a bug).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Spider / Jump",
+          "def": "Bug or glitch (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Go to Sleep / Fly Out / Go Home",
+          "def": "Logging Off (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Months (prison sentence)",
+          "def": "IRL minutes.",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Years (prison sentence)",
+          "def": "IRL days.",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Headache",
+          "def": "Lag (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Blinks",
+          "def": "FPS (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Locals",
+          "def": "NPCs (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Storm",
+          "def": "Server reset (2pm EST).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Email",
+          "def": "Discord (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "City Email",
+          "def": "Badlands Discord (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Flex Your __ Muscle",
+          "def": "Press __ key (in-character euphemism).",
+          "tier": "IC/OOC"
+        },
+        {
+          "term": "Robo-Copping",
+          "def": "Behavior to avoid: instant-tazing without warning, shutting down RP by not listening or investigating, hitting people with the book during arrests after they offered good RP.",
+          "tier": "Don'ts"
+        },
+        {
+          "term": "Be a Character",
+          "def": "LSPD prides itself on hiring LEOs that put thought into their characters whether background or personality. If lost on the kind of character to be, learn and grow.",
+          "tier": "Conduct"
+        },
+        {
+          "term": "Stream Restriction",
+          "def": "Do not stream during the academy. Streaming academy training, SOPs, and other documents (including handbook, tests, or other handouts) is strictly forbidden.",
+          "tier": "Conduct"
+        }
+      ]
+    },
+    "departments": {
+      "label": "Departments",
+      "icon": "\ud83c\udfdb",
+      "description": "The three San Andreas LEO agencies and how they cooperate.",
+      "items": [
+        {
+          "term": "Blaine County Sheriff's Office",
+          "def": "One of the three law enforcement departments in the State of San Andreas.",
+          "tier": "Agency"
+        },
+        {
+          "term": "Los Santos Police Department",
+          "def": "One of the three law enforcement departments in the State of San Andreas.",
+          "tier": "Agency"
+        },
+        {
+          "term": "San Andreas State Police",
+          "def": "One of the three law enforcement departments in the State of San Andreas.",
+          "tier": "Agency"
+        },
+        {
+          "term": "No Jurisdictions",
+          "def": "There are no jurisdictions in San Andreas \u2014 all three departments can patrol and make arrests anywhere on the island.",
+          "tier": "Cross-Department"
+        },
+        {
+          "term": "Cross-Department Rank Respect",
+          "def": "Ranks must be respected across departments. No matter what department the Officer is employed with, treat them as your Supervisor if they are on scene with you.",
+          "tier": "Cross-Department"
+        },
+        {
+          "term": "Cross-Department Supervisor Request",
+          "def": "If a civilian requests a supervisor and there are no supervisors available from your department, call one from another department.",
+          "tier": "Cross-Department"
+        },
+        {
+          "term": "Cross-Department Riding",
+          "def": "BCSO Deputies, State Troopers & LSPD Officers are allowed to ride together if they wish to.",
+          "tier": "Cross-Department"
+        },
+        {
+          "term": "Officer Down Cross-Coverage",
+          "def": "If there are no LSPD supervisors available, a BCSO supervisor may respond.",
+          "tier": "Cross-Department"
+        }
+      ]
+    }
+  }
+}

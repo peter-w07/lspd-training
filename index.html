@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LSPD Academy — Study Hub</title>
+<meta name="description" content="Study tool for the Los Santos Police Department academy — flashcards, quizzes, and matching for laws, SOPs, codes, and procedures.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0e1a'/%3E%3Ctext x='32' y='44' font-family='monospace' font-size='32' font-weight='bold' fill='%23d4a64a' text-anchor='middle'%3E★%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="stripes"><div></div><div></div><div></div><div></div></div>
+  <div class="head-row">
+    <div class="brand">
+      <div class="badge"><div><span style="display:block;font-size:18px">LSPD</span><span style="display:block;font-size:8px;margin-top:2px;opacity:0.7">SAN ANDREAS</span></div></div>
+      <div>
+        <h1 id="siteTitle">Academy Study Hub<small id="siteSubtitle">Cadet · Recruit · Probationary</small></h1>
+      </div>
+    </div>
+    <div class="stats">
+      <div><strong id="stat-total">0</strong>Total Items</div>
+      <div><strong id="stat-cat">0</strong>Categories</div>
+      <div><strong id="stat-streak">0</strong>Best Streak</div>
+    </div>
+  </div>
+</header>
+
+<nav class="cat-nav" id="catNav"></nav>
+
+<main>
+  <div id="loadingState" style="text-align:center;padding:80px 20px;color:var(--ink-dim);font-size:12px;letter-spacing:0.3em;">
+    Loading study material...
+  </div>
+  <div id="errorState" style="display:none;text-align:center;padding:80px 20px;color:var(--red);font-size:13px;line-height:1.6;">
+    <div style="font-family:'Bebas Neue';font-size:24px;color:var(--red);letter-spacing:0.1em;margin-bottom:16px;">DATA LOAD FAILED</div>
+    <div id="errorMsg"></div>
+    <div style="margin-top:24px;color:var(--ink-faint);font-size:11px;letter-spacing:0.15em;">Make sure data.json is in the same folder as this page.</div>
+  </div>
+  <div id="appRoot" style="display:none;">
+    <div class="section-title">Study Mode</div>
+    <div class="modes">
+      <button class="mode-card active" data-mode="flashcards">
+        <div class="num">01</div>
+        <div class="name">Flashcards</div>
+        <div class="desc">Flip to reveal · self-paced</div>
+      </button>
+      <button class="mode-card" data-mode="quiz">
+        <div class="num">02</div>
+        <div class="name">Quiz</div>
+        <div class="desc">Multiple choice · graded</div>
+      </button>
+      <button class="mode-card" data-mode="match">
+        <div class="num">03</div>
+        <div class="name">Match</div>
+        <div class="desc">Term ↔ Definition pairs</div>
+      </button>
+    </div>
+    <div id="modeContent"></div>
+  </div>
+</main>
+
+<footer>
+  Built for BadlandsRP LSPD · <span id="versionTag">v1.0</span> · Stay Sharp Out There
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
